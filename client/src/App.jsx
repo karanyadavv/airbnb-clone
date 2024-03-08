@@ -1,11 +1,17 @@
 import './App.css'
+import { Route, Routes } from 'react-router-dom';
+import IndexPage from './pages/IndexPage';
+import LoginPage from './pages/LoginPage';
+
 
 function App() {
 
   return (
-    <div className='bg-red-500'>
-      test
-    </div>
+    <Routes>
+      <Route index element={<IndexPage />} />
+      <Route path='/login' element={<LoginPage />} />
+    </Routes>
+    
   )
 }
 
