@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 
-
 body{
+  background: #FAF9F6;
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   /*font-weight: <weight>;*/
