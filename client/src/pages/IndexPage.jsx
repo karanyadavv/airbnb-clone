@@ -6,8 +6,8 @@ export default function IndexPage(){
   return(
     <div className="app">
       {locations.map((locations) => (
-          <LocationCard 
-            key={locations.id} // Adding key prop to avoid React warning
+          <LocationCard
+            key={locations.id}
             image={locations.image}
             title={locations.title}
             description={locations.description}

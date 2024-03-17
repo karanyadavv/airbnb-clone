@@ -21,8 +21,7 @@ export default function LoginPage(){
           <label className="block text-gray-700 text-sm font-bold mb-2">
             Password
           </label>
-          <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-4 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************" />
-          <p className="text-gray-500 text-xs italic">Use at least 8 characters, one uppercase, one lowercase and one number.</p>
+          <input className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-2 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="******************" />   
         </div>
         <div className="flex items-center justify-between">
           <button className="bg-[#E0565B] hover:bg-primary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
