@@ -6,20 +6,16 @@ Welcome to the Airbnb Clone frontend project! This project is a simplified versi
 
 This project replicates the frontend functionality of Airbnb's signup and signin process, providing users with a familiar interface for creating and managing their accounts. It's built to be easily deployable and customizable for various needs.
 
-## Features
+## Tech Stack
 
-- **User Authentication**: Users can sign up for new accounts and sign in to existing ones securely.
-- **Mobile Responsive**: The application is designed to be accessible and usable on a variety of devices, from smartphones to desktop computers.
-- **Customizable**: The codebase is modular and well-organized, making it easy to extend or modify for specific requirements.
+- **React**: A JavaScript library for building user interfaces. React makes it painless to create interactive UIs.
+- **Tailwind CSS**: A utility-first CSS framework for quickly building custom designs. Tailwind CSS enables rapid development by providing a set of pre-defined utility classes.
 
 ## Installation
 
 To run this application locally, follow these steps:
 
 1. Clone this repository to your local machine.
-   ```
-   git clone https://github.com/your_username/airbnb-clone-frontend.git
-   ```
 
 2. Navigate into the project directory.
    ```
